@@ -21,6 +21,7 @@ import cv2
 def segmentation_by_object_detection_with_expected(np_data,len_expected,reading_direction):
 	image_list = []
 	start_x_list_text = []
+	image_list_new1 = []
 	# timer.startOp()
 	japanese_segmentation_detect_fn = htr_word_modelmanager.get_japanese_segmentation_preprocess_detect_fn()
 	# print(timer.endOp())
@@ -47,6 +48,7 @@ def segmentation_by_object_detection_with_expected(np_data,len_expected,reading_
 			imc_copy = imc.copy()
 			for *xyxy, conf, cls in reversed(pred):
 				cropped_img,start_x_text,imc_copy= save_one_box(xyxy, imc,imc_copy, BGR=True)
+				cropped_img = cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY)
 				image_list.append(cropped_img)
 				start_x_list_text.append(start_x_text)
 				# plt.imshow(cropped_img)
@@ -54,7 +56,14 @@ def segmentation_by_object_detection_with_expected(np_data,len_expected,reading_
 		start_x_text_new = [x for x,y in sorted(zip(start_x_list_text,image_list))]
 		image_list_new = [y for x,y in sorted(zip(start_x_list_text,image_list))]
 
-		return image_list_new, start_x_text_new,imc_copy
+		for img in image_list_new:
+			if reading_direction.lower() == "vertical":
+				img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
+				image_list_new1.append(img)
+			else:
+				image_list_new1.append(img)
+
+		return image_list_new1, start_x_text_new,imc_copy
 
 
 	except Exception as e:
