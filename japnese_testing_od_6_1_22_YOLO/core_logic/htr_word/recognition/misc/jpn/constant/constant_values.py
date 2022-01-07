@@ -1,0 +1,10 @@
+gb_kernel_size = (3,3)
+kernel_std_deviation= 1
+max_value = 255
+pad_x = 8
+pad_y = 8
+min_threshold=0
+resize_x = 63
+resize_y = 63
+n_image = 1
+channel = 1
