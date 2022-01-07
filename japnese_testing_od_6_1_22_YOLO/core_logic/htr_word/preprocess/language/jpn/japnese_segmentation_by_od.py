@@ -44,11 +44,19 @@ def segmentation_by_object_detection_with_expected(np_data,len_expected,reading_
 		if len(pred):
 			# Rescale boxes from img_size to im0 size
 			pred[:, :4] = scale_coords(im.shape[2:], pred[:, :4], im0s.shape).round()
-
+			imc_copy = imc.copy()
 			for *xyxy, conf, cls in reversed(pred):
-				cropped_img = save_one_box(xyxy, imc, BGR=True)
-				plt.imshow(cropped_img)
-				plt.show()
+				cropped_img,start_x_text,imc_copy= save_one_box(xyxy, imc,imc_copy, BGR=True)
+				image_list.append(cropped_img)
+				start_x_list_text.append(start_x_text)
+				# plt.imshow(cropped_img)
+				# # plt.show()
+		start_x_text_new = [x for x,y in sorted(zip(start_x_list_text,image_list))]
+		image_list_new = [y for x,y in sorted(zip(start_x_list_text,image_list))]
+
+		return image_list_new, start_x_text_new,imc_copy
+
+
 	except Exception as e:
 		raise e
 

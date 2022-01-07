@@ -20,8 +20,9 @@ from core_logic.htr_word.preprocess.language.jpn.yolov5.utils.general import (cl
 
 
 
-def save_one_box(xyxy, im, gain=1.0, pad=0, square=False, BGR=False, save=True):
+def save_one_box(xyxy, im, imc_copy, gain=1.0, pad=0, square=False, BGR=False, save=True):
     # Save image crop as {file} with crop size multiple {gain} and {pad} pixels. Save and/or return crop
+
     xyxy = torch.tensor(xyxy).view(-1, 4)
     b = xyxy2xywh(xyxy)  # boxes
     if square:
@@ -30,7 +31,9 @@ def save_one_box(xyxy, im, gain=1.0, pad=0, square=False, BGR=False, save=True):
     xyxy = xywh2xyxy(b).long()
     clip_coords(xyxy, im.shape)
     crop = im[int(xyxy[0, 1]):int(xyxy[0, 3]), int(xyxy[0, 0]):int(xyxy[0, 2]), ::(1 if BGR else -1)]
+    # image = np_data[start_y_text:end_y_text,start_x_text:end_x_text]
+    cv2.rectangle(imc_copy,(int(xyxy[0, 0]),xyxy[0, 1])),(int(xyxy[0, 2]),int(xyxy[0, 3])),(255,255,0),2)
     # if save:
     #     file.parent.mkdir(parents=True, exist_ok=True)  # make directory
     #     cv2.imwrite(str(increment_path(file).with_suffix('.jpg')), crop)
-    return crop
+    return crop,start_x_text, imc_copy
