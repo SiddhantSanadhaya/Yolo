@@ -26,32 +26,29 @@ def segmentation_by_object_detection_with_expected(np_data,len_expected,reading_
 	# print(timer.endOp())
 	if reading_direction.lower()=="vertical":
 		np_data = cv2.rotate(np_data, cv2.ROTATE_90_COUNTERCLOCKWISE)
-
 	try:
 		japanese_segmentation_detect_fn.model.float()
 		dataset = LoadImages(np_data)
-        im, im0s = dataset.__next__()
-        im = torch.from_numpy(im)
-        im = im.float()  # uint8 to fp16/32
-        im /= 255  # 0 - 255 to 0.0 - 1.0
-        if len(im.shape) == 3:
-            im = im[None]  # expand for batch dim
+		im, im0s = dataset.__next__()
+		im = torch.from_numpy(im)
+		im = im.float()  # uint8 to fp16/32
+		im /= 255  # 0 - 255 to 0.0 - 1.0
+		if len(im.shape) == 3:
+			im = im[None]  # expand for batch dim
 
         # Inference
-        pred = japanese_segmentation_detect_fn(im)
-        # NMS
-        pred = non_max_suppression(pred)[0]
-        imc = im0s.copy()# for save_crop
-        if len(pred):
-            # Rescale boxes from img_size to im0 size
-            pred[:, :4] = scale_coords(im.shape[2:], pred[:, :4], im0s.shape).round()
+		pred = japanese_segmentation_detect_fn(im)
+		# NMS
+		pred = non_max_suppression(pred)[0]
+		imc = im0s.copy()# for save_crop
+		if len(pred):
+			# Rescale boxes from img_size to im0 size
+			pred[:, :4] = scale_coords(im.shape[2:], pred[:, :4], im0s.shape).round()
 
-            for *xyxy, conf, cls in reversed(pred):
-                cropped_img = save_one_box(xyxy, imc, BGR=True)
-                plt.imshow(cropped_img)
-                plt.show()
-		
-
+			for *xyxy, conf, cls in reversed(pred):
+				cropped_img = save_one_box(xyxy, imc, BGR=True)
+				plt.imshow(cropped_img)
+				plt.show()
 	except Exception as e:
 		raise e
 
