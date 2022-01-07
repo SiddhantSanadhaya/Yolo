@@ -29,7 +29,7 @@ def segmentation_by_object_detection_with_expected(np_data,len_expected,reading_
 
 	try:
 		japanese_segmentation_detect_fn.model.float()
-        dataset = LoadImages(np_data)
+		dataset = LoadImages(np_data)
         im, im0s = dataset.__next__()
         im = torch.from_numpy(im)
         im = im.float()  # uint8 to fp16/32
