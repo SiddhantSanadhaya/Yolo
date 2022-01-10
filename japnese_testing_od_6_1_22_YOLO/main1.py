@@ -129,7 +129,7 @@ def jpn(path,reading_direction):
                     
                     
                     
-                    if len(image_name_lst) ==866:
+                    if len(image_name_lst) ==500:
                         # print("hello")
                         output_jpn(image_name_lst,segments_all,excel_name,expected_all,sp_image_all,recog_all,conf_all,text_all,Od_output_llist,lst1,lst2)
                         image_name_lst = []

@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 88, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 82, in _path_stat
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/tensorflow/_api/v2/compat/v1/experimental/__init__.abi3.so'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main1.py", line 2, in <module>
+    from core_logic.htr_word.htr_word_operation_manager import recognition_process
+  File "/home/ubuntu/jap_yolo/Yolo/japnese_testing_od_6_1_22_YOLO/core_logic/htr_word/htr_word_operation_manager.py", line 4, in <module>
+    from core_logic.htr_word.preprocess.language.jpn.japanese_od import japanese_single_char_preprocess, japanese_multi_char_preprocess
+  File "/home/ubuntu/jap_yolo/Yolo/japnese_testing_od_6_1_22_YOLO/core_logic/htr_word/preprocess/language/jpn/japanese_od.py", line 1, in <module>
+    import silence_tensorflow.auto
+  File "/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/silence_tensorflow/auto.py", line 3, in <module>
+    silence_tensorflow()
+  File "/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/silence_tensorflow/silence_tensorflow.py", line 10, in silence_tensorflow
+    import tensorflow as tf
+  File "/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/tensorflow/__init__.py", line 48, in <module>
+    from ._api.v2 import compat
+  File "/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/tensorflow/_api/v2/compat/__init__.py", line 39, in <module>
+    from . import v1
+  File "/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/tensorflow/_api/v2/compat/v1/__init__.py", line 34, in <module>
+    from . import compat
+  File "/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/tensorflow/_api/v2/compat/v1/compat/__init__.py", line 39, in <module>
+    from . import v1
+  File "/home/ubuntu/sandy_code/v_env/lib/python3.6/site-packages/tensorflow/_api/v2/compat/v1/compat/v1/__init__.py", line 42, in <module>
+    from tensorflow._api.v2.compat.v1 import experimental
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1129, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1260, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 96, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 88, in _path_is_mode_type
+KeyboardInterrupt
+Using TensorFlow backend.
+Fusing layers... 
+Model Summary: 567 layers, 86217814 parameters, 0 gradients, 204.2 GFLOPs
+Traceback (most recent call last):
+  File "main1.py", line 159, in <module>
+    jpn(sys.argv[1],sys.argv[2])
+IndexError: list index out of range

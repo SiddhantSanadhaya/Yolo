@@ -69,7 +69,7 @@ def japanese_single_char_preprocess_model():
 
 def japanese_segmentation_preprocess_model():
     try:
-        weights = 'D:/Rawattech/yolov5/best_300.pt'
+        weights = '../../best1.pt'
         model_loaded = DetectMultiBackend(weights)
         return model_loaded
     except Exception as e:

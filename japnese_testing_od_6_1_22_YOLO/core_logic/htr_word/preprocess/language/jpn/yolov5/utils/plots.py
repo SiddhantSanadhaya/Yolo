@@ -30,10 +30,10 @@ def save_one_box(xyxy, im, imc_copy, gain=1.0, pad=0, square=False, BGR=False, s
     b[:, 2:] = b[:, 2:] * gain + pad  # box wh * gain + pad
     xyxy = xywh2xyxy(b).long()
     clip_coords(xyxy, im.shape)
-    crop = im[int(xyxy[0, 1]):int(xyxy[0, 3]), int(xyxy[0, 0]):int(xyxy[0, 2]), ::(1 if BGR else -1)]
+    crop = im[xyxy[0, 1]:int(xyxy[0, 3]), int(xyxy[0, 0]):int(xyxy[0, 2]), ::(1 if BGR else -1)]
     # image = np_data[start_y_text:end_y_text,start_x_text:end_x_text]
     cv2.rectangle(imc_copy,(int(xyxy[0, 0]),int(xyxy[0, 1])),(int(xyxy[0, 2]),int(xyxy[0, 3])),(255,255,0),2)
     # if save:
     #     file.parent.mkdir(parents=True, exist_ok=True)  # make directory
     #     cv2.imwrite(str(increment_path(file).with_suffix('.jpg')), crop)
-    return crop,start_x_text, imc_copy
+    return crop,int(xyxy[0,0]), imc_copy

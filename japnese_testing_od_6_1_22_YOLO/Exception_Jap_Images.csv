@@ -1,0 +1,371 @@
+昇華/2021D01421S142S1_34_BP0142S381451.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S381711.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S379921.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382121.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S381341.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S380381.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382531.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S381461.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382721.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S379701.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S381921.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382151.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S381121.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S383061.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382361.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S383551.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382821.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S380271.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S380501.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382691.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S380741.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S380061.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S380321.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382401.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382731.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S382521.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S380991.jpg,'NoneType' object is not iterable
+昇華/2021D01421S142S1_34_BP0142S381451.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381711.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S379921.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382121.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381341.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380381.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382531.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381461.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382721.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S379701.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381921.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382151.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381121.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S383061.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382361.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S383551.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382821.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380271.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380501.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382691.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380741.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380061.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380321.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382401.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382731.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382521.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380991.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380771.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382341.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381641.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380481.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382421.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380401.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S382771.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381231.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381211.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S379861.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S379841.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381601.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381091.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S383011.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381961.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S380001.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381451.jpg,"OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+>  - Can't parse 'rec'. Expected sequence length 4, got 2
+"
+昇華/2021D01421S142S1_34_BP0142S381451.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S381451.jpg,"OpenCV(4.5.5) /io/opencv/modules/imgproc/src/thresh.cpp:1555: error: (-2:Unspecified error) in function 'double cv::threshold(cv::InputArray, cv::OutputArray, double, double, int)'
+> THRESH_OTSU mode:
+>     'src_type == CV_8UC1 || src_type == CV_16UC1'
+> where
+>     'src_type' is 16 (CV_8UC3)
+"
+昇華/2021D01421S142S1_34_BP0142S381451.jpg,"OpenCV(4.5.5) /io/opencv/modules/imgproc/src/thresh.cpp:1555: error: (-2:Unspecified error) in function 'double cv::threshold(cv::InputArray, cv::OutputArray, double, double, int)'
+> THRESH_OTSU mode:
+>     'src_type == CV_8UC1 || src_type == CV_16UC1'
+> where
+>     'src_type' is 16 (CV_8UC3)
+"
+昇華/2021D01421S142S1_34_BP0142S381451.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S381711.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S379921.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382121.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S381341.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S380381.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382531.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S381461.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382721.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S379701.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S381921.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382151.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S381121.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S383061.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382361.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S383551.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382821.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S380271.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S380501.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382691.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S380741.jpg,name 'start_x_text' is not defined
+昇華/2021D01421S142S1_34_BP0142S382691.jpg,[Errno 2] No such file or directory: 'jap_excels/japanese1.xlsx'
+テムジン/2021D02521L152L2_05_HAG152L075242r.jpg,"operands could not be broadcast together with shapes (35,34) (37,77) "
