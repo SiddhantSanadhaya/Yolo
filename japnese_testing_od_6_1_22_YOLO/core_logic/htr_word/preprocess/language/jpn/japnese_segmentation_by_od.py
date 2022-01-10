@@ -49,8 +49,9 @@ def segmentation_by_object_detection_with_expected(np_data,len_expected,reading_
 			for *xyxy, conf, cls in reversed(pred):
 				cropped_img,start_x_text,imc_copy= save_one_box(xyxy, imc,imc_copy, BGR=True)
 				cropped_img = cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY)
-				image_list.append(cropped_img)
-				start_x_list_text.append(start_x_text)
+				if start_x_text not in start_x_list_text:
+					image_list.append(cropped_img)
+					start_x_list_text.append(start_x_text)
 				# plt.imshow(cropped_img)
 				# # plt.show()
 		start_x_text_new = [x for x,y in sorted(zip(start_x_list_text,image_list))]
